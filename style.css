@@ -1,0 +1,42 @@
+/* comment */
+
+/* Select an element by the element */
+/* Will affect all elements */
+h1{
+    color: red;
+    border: 1px solid black;
+}
+
+p{
+    color: blue;
+}
+
+/* Select an element by class */
+.p1{
+    color: green;
+    border-top: 2px solid orange;
+}
+
+.middlename{
+    font-size: 50px;
+    color: green;
+}
+
+.linktoGoogle{
+    background: yellow;
+    color: pink;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 80px 20px 50px;
+    margin: 20px 60px;
+}
+
+/* Select by event */
+.linktoGoogle:hover{
+    background: red;
+}
+
+/* Select by id */
+#FirstPageHeader{
+    color: aqua;
+}
